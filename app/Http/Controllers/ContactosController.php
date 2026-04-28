@@ -15,13 +15,14 @@ class ContactosController extends Controller
         $connectionName = $config;
 
         // Verifique se a configuração para a conexão já existe
+        // Verifique se a configuração para a conexão já existe
         if (!Config::has("database.connections.$connectionName")) {
             Config::set("database.connections.$connectionName", [
                 'driver' => 'mysql',
-                'host' => '10.1.55.10',
+                'host' => '127.0.0.1',
                 'database' => $config,
-                'username' => 'luis',
-                'password' => 'Admin1234',
+                'username' => 'root',
+                'password' => 'Consultingcast2026',
                 'charset' => 'utf8mb4',
                 'collation' => 'utf8mb4_unicode_ci',
                 'prefix' => '',

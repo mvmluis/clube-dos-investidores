@@ -54,11 +54,10 @@
         }
     </style>
     @if(session('success'))
-        <div class="alert alert-success">
+        <div class="alert alert-success text-white">
             {{ session('success') }}
         </div>
     @endif
-
     <div class="container">
         @if ($errors->any())
             <div class="alert alert-danger">

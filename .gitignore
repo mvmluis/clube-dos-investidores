@@ -1,1 +1,42 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+/storage/logs/*
+*.log
+
+# Cache
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# IDE
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+composer.lock
+
+# NPM
+package-lock.json
+yarn.lock
+
+# Misc
+*.sql
+*.zip
+*.tar.gz

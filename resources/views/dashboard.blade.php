@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
     <style>
         .btn-custom {
@@ -30,7 +29,7 @@
         </h2>
 
         <div class="d-flex justify-content-center">
-            <a href="{{ route('produtos', ['conf' => 'produtos', 'tabela' => 'produto']) }}"
+            <a href="{{ route('produtos', ['conf' => 'consultingcast3', 'tabela' => 'produto']) }}"
                class="btn btn-primary btn-lg btn-custom">
                 <span class="text-gray-900 dark:text-gray-100">Produtos</span>
             </a>
